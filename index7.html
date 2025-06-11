@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 30px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Student Information Table with Column Spanning and row spanning</h2>
+    <h2 style="text-align: center;">Rowspan</h2>
+    <table>
+    <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td>123-456-7890</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td colspan="4">Jane Smith</td>
+           
+        </tr>
+        <tr>
+            <td>Emily Brown</td>
+            <td>emily@example.com</td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Colspan</h2>
+    <table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>Alice Smith</td>
+        <td  rowspan="2">alice@example.com</td>
+        <td>1234567890</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Bob Johnson</td>
+        <td>5551234567</td>
+        <td>B</td>
+        
+    </tr>
+</table>
+</body>
+</html>
+</body>
+</html>
