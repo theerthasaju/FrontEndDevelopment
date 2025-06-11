@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Detail Form</title>
+</head>
+<body>
+    <h2>Student Detail Form</h2>
+    <form action="index1.html" method="post">
+        <label for="firstname">FirstName:</label>
+        <input type="text" id="name" name="firstname" required><br><br>
+        <label for="lastname">LastName:</label>
+        <input type="text" id="name" name="lastname" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <style>
+            body {
+            background-color: #eef2f5;
+            }
+            form {
+            border: 2px solid #333;
+            padding: 30px 40px;
+            border-radius: 10px;
+            background: #CDB5EB;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            }
+            h2 {
+            text-align: center;
+            }
+        </style>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="city">City:</label>
+        <select id="city" name="city" required>
+            <option value="select">Select City</option>
+            <option value="kochi">Kochi</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="delhi">Delhi</option>
+            <option value="hyderabad">Hyderabad</option>
+        </select>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="select">Select</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Web Development">Web Development</option>
+        </select><br><br>
+        <label for="PhoneNumber">Phone Number</label>
+        <input type="PhoneNumber"id="PhoneNumber" name="PhoneNumber" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required><br><br>
+        <input type="submit" value="Submit">
+        <p>For more details, visit the <a href="index1.html">Student Details</a></p>
+    </form>
+</body>
+</html>
